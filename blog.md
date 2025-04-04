@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "我的文章列表"
+permalink: /blog/
 ---
 
 <ul>
