@@ -34,15 +34,16 @@
             font-size: 1.2em;
             margin: 30px 0;
         }
-        .article-links {
+        .article-link {
             margin: 20px 0;
+            font-size: 1.2em;
         }
-        .article-links a {
+        .article-link a {
             color: #333;
             text-decoration: none;
-            font-size: 1.2em;
-            margin: 10px 0;
-            display: block;
+        }
+        .article-link a:hover {
+            text-decoration: underline;
         }
         footer {
             background-color: #282c34;
@@ -73,10 +74,9 @@
         <p class="welcome-message">歡迎來到我的全新網站，最新內容持續推出中...</p>
 
         <!-- 文章链接 -->
-        <div class="article-links">
-            <h3>最新文章</h3>
-            <a href="post1.md">第一篇文章</a>
-            <a href="post2.md">第二篇文章</a>
+        <div class="article-link">
+            <h3>查看我的所有文章：</h3>
+            <a href="/blog/">我的文章</a>
         </div>
     </main>
 
