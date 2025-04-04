@@ -1,4 +1,7 @@
-# 我的文章列表
+---
+layout: default
+title: "我的文章列表"
+---
 
 <ul>
   {% for post in site.posts %}
