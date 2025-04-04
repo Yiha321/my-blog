@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "我的第一篇文章"
 date: 2025-04-05
 categories: 个人成长
